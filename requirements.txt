@@ -1,0 +1,9 @@
+Django==5.0.6
+whitenoise==6.6.0
+django-crispy-forms==2.1
+crispy-bootstrap4==2024.1
+
+django-mailjet==0.3.1
+
+
+django-anymail[mailjet]
