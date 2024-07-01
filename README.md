@@ -1,6 +1,31 @@
-### cd news-app
-### python -m venv <myenvname>
-### pip install -r requirements.txt
-### python manage.py makemigrations
-### python manage.py migrate
-### python manage.py runserver
+README.md
+    ├── Requirements
+    │   # requirement version of Docker, Docker-Compose, etc.
+    │
+    ├── Setup Project
+    │   # Steps for setup project for the first time.
+    │
+    ├── Run Project
+    │   # Steps for running project after developer have already setup the project.
+    │
+    ├── Account
+    │   ├── API
+    │   │    # Account for login to localhost API for admin and regular user
+    │   └── DB
+    │        # Account for access localhost DB.
+    │
+    ├── Miscellaneous Tools
+    │   ├── Clean Project
+    │   │   # Steps for cleaning project (clear project docker image/containers, reset db)
+    │   │
+    │   ├── Reset DB
+    │   │    # Steps for reset DB
+    │   │
+    │   ├── Dump DB
+    │   │    # Steps for dump localhost DB
+    │   │
+    │   └── Restore DB
+    │        # Steps for restore localhost DB
+    │
+    └── Other topics
+         # For example, custom config Celery/RabbitMQ, setup some complex data, etc.
